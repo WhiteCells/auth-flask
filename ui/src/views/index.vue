@@ -2,7 +2,7 @@
   <div class="app-container home">
     <el-row :gutter="20">
       <el-col :sm="24" :lg="24" style="padding-left: 20px">
-        <h2>后台管理框架</h2>
+        <h2>Auth Flask</h2>
         <p>
          基于Python的Flask WEB框架实现后台权限管理系统，内容包含：用户管理、角色管理、资源管理和机构管理。前端页面参考了@ruoyi。
         </p>

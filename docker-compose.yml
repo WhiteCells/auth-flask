@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  backend:
+    build:
+      context: ./mana/fs
+      dockerfile: Dockerfile
+    volumes:
+      - ./mana/fs/filedb/:/app/backend/filedb/
+      - ./mana/fs/filebrowser.db:/app/backend/filebrowser.db
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./mana/fs/frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

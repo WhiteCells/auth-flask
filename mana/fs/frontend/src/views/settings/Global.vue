@@ -42,7 +42,7 @@
             />
           </div> -->
 
-          <h3>{{ t("settings.branding") }}</h3>
+          <!-- <h3>{{ t("settings.branding") }}</h3>
 
           <i18n-t
             keypath="settings.brandingHelp"
@@ -105,7 +105,7 @@
               v-model="settings.branding.files"
               id="branding-files"
             />
-          </p>
+          </p> -->
 
           <h3>{{ t("settings.tusUploads") }}</h3>
 
@@ -174,7 +174,7 @@
       </form>
     </div>
 
-    <div class="column">
+    <!-- <div class="column">
       <form v-if="enableExec" class="card" @submit.prevent="save">
         <div class="card-title">
           <h2>{{ t("settings.commandRunner") }}</h2>
@@ -224,7 +224,7 @@
           />
         </div>
       </form>
-    </div>
+    </div> -->
   </div>
 </template>
 

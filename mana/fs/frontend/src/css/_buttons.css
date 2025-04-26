@@ -4,15 +4,16 @@
   padding: 0.5em 1em;
   border-radius: 0.1em;
   cursor: pointer;
-  background: var(--blue);
+  background: #06a7ff;
   color: white;
   border: 1px solid var(--divider);
+  border-radius: 0.8em;
   box-shadow: 0 0 5px var(--divider);
   transition: 0.1s ease all;
 }
 
 .button:hover {
-  background-color: var(--dark-blue);
+  background-color: #06a8ffc5;
 }
 
 .button--block {

@@ -58,11 +58,11 @@
     <permissions v-model:perm="user.perm" />
     <commands v-if="enableExec" v-model:commands="user.commands" />
 
-    <div v-if="!isDefault">
+    <!-- <div v-if="!isDefault">
       <h3>{{ t("settings.rules") }}</h3>
       <p class="small">{{ t("settings.rulesHelp") }}</p>
       <rules v-model:rules="user.rules" />
-    </div>
+    </div> -->
   </div>
 </template>
 

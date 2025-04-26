@@ -1,5 +1,5 @@
 #login {
-  background: var(--surfacePrimary);
+  background: #e4f3ff;
   position: fixed;
   top: 0;
   left: 0;
@@ -16,6 +16,7 @@
 
 #login h1 {
   text-align: center;
+  color: #000000;
   font-size: 1.2em;
   margin: 0.4em 0 0.67em;
 }
@@ -41,8 +42,10 @@
   background: var(--red);
   color: #fff;
   padding: 0.5em;
+  margin-bottom: 1em;
   text-align: center;
   animation: 0.2s opac forwards;
+  border-radius: 0.8em;
 }
 
 @keyframes opac {

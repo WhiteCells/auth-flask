@@ -1,8 +1,8 @@
 .input {
-  background: var(--surfacePrimary);
-  color: var(--textSecondary);
+  background: rgba(0, 0, 0, 0.1);
+  color: #535353;
   border: 1px solid var(--borderPrimary);
-  border-radius: 0.1em;
+  border-radius: 0.8em;
   padding: 0.5em 1em;
   transition: 0.2s ease all;
   margin: 0;

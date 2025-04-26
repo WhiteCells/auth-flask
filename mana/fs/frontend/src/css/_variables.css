@@ -1,7 +1,7 @@
-:root {
-  --blue: #16a085;
-  --dark-blue: #16a085;
-  --red: #f44336;
+:root.dark {
+  --blue: #72ceff;
+  --dark-blue: #2eb6ff;
+  --red: #ff3838b0;
   --dark-red: #d32f2f;
   --moon-grey: #f2f2f2;
 
@@ -9,7 +9,7 @@
   --icon-orange: #f47750;
   --icon-yellow: #fdbc4b;
   --icon-green: #16a085;
-  --icon-blue: #16a085;
+  --icon-blue: #72ceff;
   --icon-violet: #9b59b6;
 
   --input-red: rgb(252, 208, 205);
@@ -19,15 +19,15 @@
 
   --action: rgb(84, 110, 122);
 
-  --background: rgb(250, 250, 250);
-  --surfacePrimary: rgb(255, 255, 255);
-  --surfaceSecondary: rgb(230, 230, 230);
+  --background: #e4f3ff;
+  --surfacePrimary: #cee3f5;
+  --surfaceSecondary: #daeeff;
   --divider: rgba(0, 0, 0, 0.05);
   --iconPrimary: var(--icon-blue);
   --iconSecondary: rgb(255, 255, 255);
   --iconTertiary: rgb(204, 204, 204);
-  --textPrimary: rgb(111, 111, 111);
-  --textSecondary: rgb(51, 51, 51);
+  --textPrimary: rgb(0, 0, 0);
+  --textSecondary: rgb(0, 0, 0);
   --hover: rgba(0, 0, 0, 0.1);
   --borderPrimary: rgba(0, 0, 0, 0.1);
   --borderSecondary: rgba(0, 0, 0, 0.2);
@@ -35,7 +35,7 @@
   --dividerSecondary: rgba(255, 255, 255, 0.9);
 }
 
-:root.dark {
+:root {
   --input-red: rgb(115, 48, 45);
   --input-green: rgb(20, 122, 65);
 

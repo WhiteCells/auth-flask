@@ -46,12 +46,12 @@
           />
         </template>
 
-        <action
+        <!-- <action
           v-if="headerButtons.shell"
           icon="code"
           :label="t('buttons.shell')"
           @action="layoutStore.toggleShell"
-        />
+        /> -->
         <action
           :icon="viewIcon"
           :label="t('buttons.switchView')"

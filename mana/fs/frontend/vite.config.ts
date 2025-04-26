@@ -34,10 +34,10 @@ export default defineConfig(({ command }) => {
         host: '0.0.0.0',
         proxy: {
           "/api/command": {
-            target: "ws://backend:8080",
+            target: "ws://localhost:8080",
             ws: true,
           },
-          "/api": "http://backend:8080",
+          "/api": "http://localhost:8080",
         },
       },
     };
